@@ -22,6 +22,7 @@
 		974E9D271848361000A53EF6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974E9D0B1848360F00A53EF6 /* CoreData.framework */; };
 		974E9D2F1848361000A53EF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 974E9D2D1848361000A53EF6 /* InfoPlist.strings */; };
 		974E9D311848361000A53EF6 /* readingrecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 974E9D301848361000A53EF6 /* readingrecordTests.m */; };
+		974E9D3B1848362B00A53EF6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974E9D3A1848362B00A53EF6 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		974E9D2C1848361000A53EF6 /* readingrecordTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "readingrecordTests-Info.plist"; sourceTree = "<group>"; };
 		974E9D2E1848361000A53EF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		974E9D301848361000A53EF6 /* readingrecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = readingrecordTests.m; sourceTree = "<group>"; };
+		974E9D3A1848362B00A53EF6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		974E9CF91848360F00A53EF6 = {
 			isa = PBXGroup;
 			children = (
+				974E9D3A1848362B00A53EF6 /* Storyboard.storyboard */,
 				974E9D0D1848360F00A53EF6 /* readingrecord */,
 				974E9D2A1848361000A53EF6 /* readingrecordTests */,
 				974E9D041848360F00A53EF6 /* Frameworks */,
@@ -230,6 +233,7 @@
 			files = (
 				974E9D121848360F00A53EF6 /* InfoPlist.strings in Resources */,
 				974E9D1D1848360F00A53EF6 /* Images.xcassets in Resources */,
+				974E9D3B1848362B00A53EF6 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
